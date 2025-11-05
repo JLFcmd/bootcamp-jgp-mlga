@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="buscador">
+        <input id="search-input" type="text" placeholder="Filtra pokemon por nombre..." />
+      </section>
+
+      <section id="pokemons"></section>
+
+      <div id="pagination">
+        <button id="load-more">Cargar más</button>
+      </div>
+
+      <div class="circle" id="circle-right"></div>
+      <div class="circle" id="circle-left"></div>
+      <div class="triangle" id="triangle-right"></div>
+      <div class="triangle" id="triangle-left"></div>
+    </main>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
